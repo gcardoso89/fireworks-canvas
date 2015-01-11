@@ -26,6 +26,12 @@
 		};
 }());
 
+
+/**
+ * Convert HEX color to RGB color object.
+ * @param hex
+ * @returns {{r: Number, g: Number, b: Number}}
+ */
 function hexToRgb(hex) {
 	var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
 	return result ? {
@@ -38,7 +44,6 @@ function hexToRgb(hex) {
 /**
  * Fireworks Object
  * This object is responsible to start the fireworks show, loading the fire elements within a XML file.
- *
  */
 function Fireworks(){
 
@@ -230,6 +235,8 @@ Fountain.prototype.start = function(){
 
 };
 
+
+
 Fountain.prototype.restart = function(){
 
 	this.particles.forEach(function(part){
@@ -243,6 +250,10 @@ Fountain.prototype.restart = function(){
 
 };
 
+/**
+ * Fire element with type "Rocket"
+ * This object is created for each XML node with type "Fountain"
+ */
 
 function Rocket(data, canvas, context){
 
@@ -346,7 +357,7 @@ Rocket.prototype.drawRocket = function(){
 	this.x += this.vx;
 	this.y += this.vy;
 
-	//if ( this.y < 150 ) this.canStop = true;
+	if ( this.y < 20 ) this.canStop = true;
 
 	this.ctx.fillStyle = this.color;
 
@@ -370,6 +381,11 @@ Rocket.prototype.restart =function(){
 	this.ended = false;
 
 };
+
+/**
+ * Particle object.
+ * This object is used by each fire element
+ */
 
 function Particle(x,y,color,ctx,maxY,angle) {
 
