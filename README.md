@@ -1,4 +1,4 @@
-# Fireworks Demo
+# Fireworks Demo using Canvas and XML
 
 
 ### Tecnologies
