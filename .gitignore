@@ -30,3 +30,5 @@ node_modules
 # PHP storm
 /.idea
 /.idea/*
+
+.DS_Store
