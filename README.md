@@ -10,4 +10,4 @@ $ npm install
 $ npm start
 ```
 
-Go to [http://localhost:3000](http://localhost:300/ "Fireworks Demo")
+Go to [http://localhost:3000](http://localhost:3000/ "Fireworks Demo")
