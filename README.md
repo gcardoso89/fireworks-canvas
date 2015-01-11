@@ -2,8 +2,12 @@
 
 ### Another deeper heading
 
-`$ npm install`
+```
+$ npm install
+```
 
-`$ npm start`
+```
+$ npm start
+```
 
 
