@@ -7,7 +7,7 @@ This app was writen using HTML5, CSS3 and Javascript along with the following te
 
 * Node.js®
 * Express Framework for Node.js®
-* XML to JSON jQuery Plugin (jQuery library required). Visit the [website](http://www.fyneworks.com/jquery/xml-to-json/)
+* XML to JSON jQuery Plugin (jQuery library required). Visit the [website](http://www.fyneworks.com/jquery/xml-to-json/).
 
 
 ### Requirements
