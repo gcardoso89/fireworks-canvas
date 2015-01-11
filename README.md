@@ -3,7 +3,7 @@
 
 ### Tecnologies
 
-This app was writen using HTML5, CSS3 and Javascript together with the following technologies:
+This app was writen using HTML5, CSS3 and Javascript along with the following technologies:
 
 * Node.js®
 * Express Framework for Node.js®
