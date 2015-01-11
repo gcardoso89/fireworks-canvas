@@ -1,5 +1,10 @@
 # Fireworks Demo
 
+### Requirements
+This demo was developed using Node.js® and the Express (Node.js web application Framework).
+You need to install node.js to run the app.
+
+
 ### How to install and run the app
 
 ```
